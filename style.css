@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: azure;
+}
+.nav-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* margin: 0px 10px; */
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    z-index: 100;
+    position: fixed;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+   
+    background-color: black;
+}
+.nav-item ul li a,.logo{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+/* main section */
+
+/* section 1 book container */
+section {
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.book-container,.register-container{
+    margin-top: 100px;
+    padding: 20px;
+    width: 900px;
+    border: 1px solid black;
+    background-color: #ffff;
+    justify-content: center;
+}
+.book-container h3{
+    
+    padding-bottom: 10px;
+    background-color: #ffff;
+}
+.book-table{
+    background-color: #ffff;
+}
+table{
+    background-color: #ffff;
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+table thead th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    align-items: center;
+    background-color: #ffff;
+}
+table tbody tr td p{
+   margin: 10px 0px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #ffff;
+   
+}
+table tbody tr td a{
+    background-color: #ffff;
+}
+
+/* section register */
+.register-container h3{
+    padding-bottom: 10px;
+    background-color: #ffff;
+}
+.register-container form{
+    background-color: #ffff;
+}
+form label{
+    display: block;
+    background-color: #ffff;
+    margin: 8px 0px;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    background-color: #ffff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+form button{
+    width: 100%;
+    height: 30px;
+    margin: 20px 0px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
